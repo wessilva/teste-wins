@@ -6,7 +6,7 @@ import { NavClothes } from "./NavClothes"
 
 
 export function ClothesSection() {
-    const [selected, setSelected] = useState('UNIFORMES')
+    const [selected, setSelected] = useState('uniformes')
     return (
         <div className=" flex flex-col  w-full h-[1030px]  text-white bg-black">
             <NavClothes selected={selected} setSelected={setSelected} />

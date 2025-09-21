@@ -4,8 +4,8 @@ export function NavButton() {
         <div className="flex items-center justify-center h-full">
             <button className="  flex text-white  justify-center items-center  ">
                 <img src="/Conteiner.svg" alt="Botão" className="h-[42px] w-[218px] " />
-                
-                
+
+
                 <span className="absolute font-bold text-[14px]">SAIR</span>
                 <img src="/logout.png" alt="Ícone" className="h-5  absolute ml-17" />
             </button>

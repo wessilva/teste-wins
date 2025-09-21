@@ -9,7 +9,6 @@ const fireArmsTransformedData = fireArmsData.map((item: any) => ({
 
 export function HeroSection() {
 
-    console.log(fireArmsTransformedData);
     return (
         <div className="relative w-full h-[1030px]  text-white bg-black">
             <img

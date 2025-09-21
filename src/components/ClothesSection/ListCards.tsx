@@ -29,7 +29,7 @@ export function ListCards({ selected }: ListCardsProps) {
                 : [];
     return (
 
-        <ul className="flex flex-wrap gap-2 justify-center items-center w-full  mt-5 px-40  max-h-[40rem] ">
+        <ul className="flex flex-wrap gap-2 justify-center items-center w-full  mt-5 px-40  max-h-[40rem]  ">
             {dataToDisplay.slice(0, 10).map(item => (
                 <Card key={item.name} name={item.name} price={item.price} images={item.images[0]} />
             ))}
